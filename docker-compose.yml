@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  examplea:
+    image: {{docker registry}}/dev/examplea:latest
+    ports:
+      - 8000:8000
+
+  exampleb:
+    image: {{docker registry}}/dev/exampleb:latest
